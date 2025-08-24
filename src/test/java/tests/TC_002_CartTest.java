@@ -33,7 +33,7 @@ public class TC_002_CartTest extends ProjectSpecificationMethods {
    logInPg.clickLogin();
    try {
 	    Alert alert = driver.switchTo().alert();
-	    alert.accept(); // or alert.dismiss()
+	    alert.accept(); 
 	    System.out.println("Alert handled successfully.");
 	} catch (NoAlertPresentException e) {
 	    System.out.println("No alert present.");
