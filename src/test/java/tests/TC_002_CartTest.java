@@ -38,7 +38,6 @@ public class TC_002_CartTest extends ProjectSpecificationMethods {
 	} catch (NoAlertPresentException e) {
 	    System.out.println("No alert present.");
 	}
-
    productPg.selectProduct1();
    productPg.addToCart();
    productPg.backToProducts();
